@@ -2,6 +2,7 @@ package br.com.fernandoguide.imersaofc18.domain;
 
 import br.com.fernandoguide.imersaofc18.domain.exceptions.DomainException;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.UUID;
 
 @Data
+@NoArgsConstructor
 public class Event {
     private String id;
     private String name;

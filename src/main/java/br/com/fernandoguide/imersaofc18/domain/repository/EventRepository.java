@@ -18,6 +18,8 @@ public interface EventRepository {
 
     Event createEvent(Event event) throws DomainException;
 
+    Spot findSpotByID(String spotId);
+
     Spot createSpot(Spot spot) throws DomainException;
 
     Ticket createTicket(Ticket ticket) throws DomainException;

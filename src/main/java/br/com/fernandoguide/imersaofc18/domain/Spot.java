@@ -2,10 +2,12 @@ package br.com.fernandoguide.imersaofc18.domain;
 
 import br.com.fernandoguide.imersaofc18.domain.exceptions.DomainException;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
 @Data
+@NoArgsConstructor
 public class Spot {
     private String id;
     private String eventID;
